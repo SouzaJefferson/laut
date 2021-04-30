@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+#topo{
+    width: 100%;
+    background-color: rgb(12, 32, 75);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo img {
+    width: 200px;
+}
+
+#menu ul {
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li {
+    list-style: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 49, 3);
+}
+
+#menu ul li a {
+    text-decoration: deepskyblue;
+    color: dimgray;
+    transition: color 2s;
+}
+
+#menu ul li a:hover{
+    color: rgb(35, 7, 138);
+}
